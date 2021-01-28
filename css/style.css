@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background:   white;
+}
+ 
+header .container{
+    max-width: 100%;
+    width: 100%;
+}
+
+header .top_img{
+    max-width: 100%;
+    height: 250px;
+    background: url('../img/bg.png') no-repeat center;
+    background-size: cover;
+}
+input, button{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+}
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form .form-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  form .form-inner h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  form .form-inner .form-group label{
+    font-style: 400;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+    
+  }
+  form .form-group {
+      margin: 0;
+  }
+  
+  form .form-inner .form-group input{
+    display: block;
+    width: 350px;
+    height: 30px;
+    padding: 5px 10px;
+    background: #E5E5E5;
+    border-radius: 2px;
+  }
+  
+  form .form-inner p{
+    text-align: center;
+  }
+  form .form-inner p.par{
+    text-align: center;
+  }
+  
+  form .form-inner p span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+  }
+  form .form-inner p a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #2389DA;
+    margin-left: 10px;
+  }
+  
+  form .form-inner input[type="submit"], .Welcome button{
+    width: 350px;
+    height: 40px;
+    background: #2389DA;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 10px;
+  }
+
+
+
+  /*========================== register ======================== */
+
+
+  header h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #000000;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form .form-inner.reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  form .reg h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  form .reg .form-group label{
+    font-style: 400;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  form .form-inner.reg .form-group input{
+    display: block;
+    width: 450px;
+    height: 50px;
+    padding: 5px 10px;
+    background: #E5E5E5;
+    border-radius: 2px;
+    margin-bottom: 10px;
+  }
+
+  form .form-inner.reg p span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  form .form-inner.reg p a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #2389DA;
+    margin-left: 40px;
+  }
+  
+  form .form-inner.reg input[type="submit"], .Welcome button{
+    width: 450px;
+    height: 50px;
+    background: #2389DA;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+  }
+
+  /* =================== admin panel start ================= */
+
+  main .sidebar_menu{
+    background: #F9F9F9;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 86vh;
+  }
+  main .sidebar_menu .sidebar_link{
+    text-align: start;
+    width: 90%;
+    padding: 20px 50px 20px 80px;
+  }
+
+  main .sidebar_menu .sidebar_link:hover{
+    background: blue;
+    border-radius: 10px;
+
+  }
+  main .sidebar_menu .sidebar_link.active{
+    background: blue;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+
+  .navbar .collapse .btn{
+    margin-right: 50px;
+    width: 230px;
+  }
+
+  .navbar .collapse .form{
+    margin-right: 250px;
+  }
+  .navbar .collapse .form-control{
+    width: 350px;
+  }
+  .price{
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg_9{
+    background: #E2E2E2;
+    max-width: 100%;
+  }
+  .bg_9 .navbar{
+    height: 105px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .price h2{
+    color: blue;
+    font-weight: 500;
+  }
+  .price p{
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .menu{
+    margin-top: 50px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  .menu .top{
+    padding: 50px 100px;
+
+  }
+  .menu .top h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+  }
+  .menu .top select{
+    border: none;
+  }
+  .menu .bosh_menu{
+    padding-bottom: 50px;
+    
+  }
+  .menu .menu_box h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+  }
+  .menu .menu_box p{
+    font-size: 38px;
+    font-weight: 600;
+    color: black;
+  }
+  .sidebar_menu .sidebar_link a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .collapse .fa-bell-o{
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  form .form-control{
+    background: #E2E2E2;
+  }
+
+  /* -------------- admin buyurtma ------------- */
+
+
+.left select{
+  border: none;
+  background: transparent;
+}
+.left select option a{
+  color: blue;
+}
+.left p{
+  margin-top: 16px;
+}
